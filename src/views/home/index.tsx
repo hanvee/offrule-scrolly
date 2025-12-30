@@ -24,7 +24,7 @@ export const HomeView: FC = () => {
 
       {/* MAIN – central game area (phone frame) */}
       <main className="flex flex-1 items-center justify-center px-4 py-3">
-        <div className="relative aspect-[9/16] w-full max-w-sm overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-b from-slate-900 via-slate-950 to-slate-900 shadow-[0_0_40px_rgba(56,189,248,0.35)]">
+        <div className="relative aspect-[9/16] w-[280px] overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-b from-slate-900 via-slate-950 to-slate-900 shadow-[0_0_40px_rgba(56,189,248,0.35)]">
           {/* Fake “feed card” top bar inside the phone */}
           <div className="flex items-center justify-between px-3 py-2 text-[10px] text-slate-400">
             <span className="rounded-full bg-white/5 px-2 py-1 text-[9px] uppercase tracking-wide">
